@@ -7,19 +7,17 @@
 
 .conteiner{
    padding: 29px 0 0 ;
-   min-height:300px;
+ 
+   min-height:900px;
     background-image: url("./img/image-hero-tablet.png");
     background-repeat: no-repeat;
-   background-position: top -5rem right -9rem ;
-   
+    background-size:1000px;
+   background-position: top -6rem right -9rem ;
 }
 .log{
-
     display: flex;
-
     justify-content: space-between;
     padding-left: 160px;
-    
     padding-right: 170px;
    
 }
@@ -29,7 +27,7 @@
     background-color: #13183f;
     color: white;
     cursor: pointer;
-    transition: all 5s linear 5s ;
+    
    
 }
 .btn:hover{
@@ -70,15 +68,15 @@ margin:172px  119px 0 119px;
 .conteiner-wraper{
 /* max-width:100%;  */
 
-/* display: flex;
-flex-direction: column;
-flex-wrap: wrap; */
+display: flex;
 
+flex-wrap: wrap;
+justify-content: flex-start;
 
 /* display: grid;
 grid-template-columns:  auto auto auto; */
-display: inline-flex;
-flex-wrap: wrap;
+/* display: inline-flex;
+flex-wrap: wrap; */
 }
 .box button{
     border: none;
@@ -96,15 +94,6 @@ max-width: 330px;
    margin-left:20px ;
 }
 .first{
-<<<<<<< Updated upstream
-     
-=======
-<<<<<<< HEAD
-    
-=======
-     
->>>>>>> 52ad755daf6e8bc386fc265d71c6f2f50bdb5122
->>>>>>> Stashed changes
     font-size: 32px;
     line-height: 40px;
     color:white;
@@ -116,7 +105,6 @@ max-width: 330px;
     position: relative;
     background: white;
     border-radius: 15px;
-   
     padding-top:64px ;
 }
 .animation img{
@@ -184,7 +172,6 @@ max-width: 330px;
     position: relative;
     background:white;
     border-radius: 15px;
-    
     padding-top:64px ;
 }
 .crypto img{
@@ -238,4 +225,224 @@ max-width: 330px;
     background: linear-gradient(180deg,#4851ff -54.32%,#f02aa6 100%);
     color: white;
     cursor: pointer;
+}
+
+@media(max-width:950px) {
+    .conteiner{
+        padding: 29px 0 0 ;
+        min-height:300px;
+         background-image: url("./img/image-hero-tablet.png");
+         background-repeat: no-repeat;
+        background-position: top -6rem right -14rem ;
+     }
+     .log{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 100px;
+        padding-right: 110px;
+       
+    }
+    .btn{
+        width: 167px;
+        border-radius: 28px;
+        background-color: #13183f;
+        color: white;
+        cursor: pointer;
+        
+       
+    }
+    .btn:hover{
+        color:rgb(56, 12, 12) ;
+        background: linear-gradient(20deg, rgb(221, 228, 134) 20%, rgb(238, 129, 129) 70%);
+        border: none;
+    }
+    
+    .text{
+        max-width: 200px ;
+        margin-left:100px;
+        margin-top:90px;
+        
+    }
+    .text p {
+        font-size: 18px;
+        line-height: 28px;
+        color:#83869a;
+        padding-top: 29px ;
+    }
+    .text button{
+    margin-top: 29px;
+    width: 167px;
+    height: 63px;
+    background:linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%) ;
+    border-radius: 31.5px;
+    font-size: 18px;
+    border: none;
+    color:white ;
+    cursor: pointer;
+    }
+    .sec{
+        /* width: 1440px; */
+        margin:170px  70px 0 70px;
+        }
+        .conteiner-wraper{
+        /* max-width:100%;  */
+        
+        display: flex;
+        
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        
+        /* display: grid;
+        grid-template-columns:  auto auto auto; */
+        /* display: inline-flex;
+        flex-wrap: wrap; */
+        }
+        .box button{
+            border: none;
+            color:#f74780;
+            font-size: 18px;
+            background: white;
+            cursor: pointer;
+        }
+        .box{
+        max-width: 300px;
+            height: 330px;
+           padding-left: 32px;
+           padding: 30px;
+           margin-bottom: 40px;
+           margin-left:20px ;
+        }
+        .first{
+            font-size: 32px;
+            line-height: 40px;
+            color:white;
+           padding-top: 64px;
+            border-radius: 15px;
+            background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+        }
+        .animation{
+            position: relative;
+            background: white;
+            border-radius: 15px;
+            padding-top:64px ;
+        }
+        .animation img{
+            position: absolute;
+            top:-28px;
+        }
+        .animation h2{
+            padding-bottom: 24px;
+        }
+        .animation button{
+            margin-top: 24px;
+        }
+        .animation p{
+          
+            color: #83869a;
+            font-size: 18px;
+            line-height: 28px;
+        }
+        .design{
+            position: relative;
+            background: white;
+            border-radius: 15px;
+           
+            padding-top:64px ;
+        }
+        .design img{
+            position: absolute;
+            top:-28px;
+        }
+        .design h2{
+            padding-bottom: 24px;
+        }
+        .design button{
+            margin-top: 52px;
+        }
+        .design p{
+            
+            color: #83869a;
+            font-size: 18px;
+            line-height: 28px;
+        }
+        .photography{
+            position: relative;
+            background: white;
+            border-radius: 15px;
+            padding-top:64px ;
+        }
+        .photography img{
+            position: absolute;
+            top:-28px;
+        }
+        .photography h2{
+            padding-bottom: 24px;
+        }
+        .photography button{
+            margin-top: 52px;
+        }
+        .photography p{
+           
+            color: #83869a;
+            font-size: 18px;
+            line-height: 28px;
+        }
+        .crypto{
+            position: relative;
+            background:white;
+            border-radius: 15px;
+            padding-top:64px ;
+        }
+        .crypto img{
+            position: absolute;
+            top:-28px;
+        }
+        .crypto h2{
+            padding-bottom: 24px;
+        }
+        .crypto button{
+            margin-top: 24px;
+        }
+        .crypto p{
+            
+            color: #83869a;
+            font-size: 18px;
+            line-height: 28px;
+        }
+        .business{
+            position: relative;
+            background: white;
+            border-radius: 15px;
+            padding-top:64px ;
+        }
+        .business img{
+            position: absolute;
+            top:-28px;
+        }
+        .business h2{
+            padding-bottom: 24px;
+        }
+        .business button{
+            margin-top: 24px;
+        }
+        .business p{
+            
+            color: #83869a;
+            font-size: 18px;
+            line-height: 28px;
+        }
+        
+        .footer{
+            width: 100%;
+            height: 120px;
+            background: #13183f;
+            padding-top: 60px;
+        }
+        .bt{
+            width: 167px;
+            border-radius: 28px;
+            background: linear-gradient(180deg,#4851ff -54.32%,#f02aa6 100%);
+            color: white;
+            cursor: pointer;
+        }
 }
