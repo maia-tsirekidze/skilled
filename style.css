@@ -152,7 +152,7 @@ max-width: 330px;
 }
 .photography{
     position: relative;
-    background: white;
+    background: rgb(214, 40, 40);
     border-radius: 15px;
     padding-top:64px ;
 }
@@ -174,7 +174,7 @@ max-width: 330px;
 }
 .crypto{
     position: relative;
-    background: white;
+    background: rgb(219, 29, 29);
     border-radius: 15px;
     
     padding-top:64px ;
