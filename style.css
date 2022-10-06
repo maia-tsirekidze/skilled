@@ -75,10 +75,10 @@ flex-direction: column;
 flex-wrap: wrap; */
 
 
-display: grid;
-grid-template-columns:  auto auto auto;
-
-
+/* display: grid;
+grid-template-columns:  auto auto auto; */
+display: inline-flex;
+flex-wrap: wrap;
 }
 .box button{
     border: none;
@@ -96,7 +96,15 @@ max-width: 330px;
    margin-left:20px ;
 }
 .first{
+<<<<<<< Updated upstream
      
+=======
+<<<<<<< HEAD
+    
+=======
+     
+>>>>>>> 52ad755daf6e8bc386fc265d71c6f2f50bdb5122
+>>>>>>> Stashed changes
     font-size: 32px;
     line-height: 40px;
     color:white;
@@ -152,7 +160,7 @@ max-width: 330px;
 }
 .photography{
     position: relative;
-    background: rgb(214, 40, 40);
+    background: white;
     border-radius: 15px;
     padding-top:64px ;
 }
@@ -174,7 +182,7 @@ max-width: 330px;
 }
 .crypto{
     position: relative;
-    background: rgb(219, 29, 29);
+    background:white;
     border-radius: 15px;
     
     padding-top:64px ;
@@ -222,6 +230,7 @@ max-width: 330px;
     width: 100%;
     height: 120px;
     background: #13183f;
+    padding-top: 60px;
 }
 .bt{
     width: 167px;
